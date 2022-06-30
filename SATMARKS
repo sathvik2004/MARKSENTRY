@@ -1,0 +1,32 @@
+print("Welcome to MRCET center for good governance")
+print("1.ENTER MARKS OF STUDENTS \n 2.REUPLOAD MARKS\n")
+a =int(input())
+if(a==1 or a ==2):
+    if(a==1):
+        print("ENTERING MARKS OF STUDENTS \n CAUTION:BE CAREFUL WHILE ENTERING SUBJECT WISE MARKS")
+        print("ENTER MARKS IN ENGLISH(FOR 100)")
+        e = int(input())
+        print("ENTER MARKS IN MATHS-II(FOR 100)")
+        m = int(input())
+        print("ENTER MARKS IN APPLIED PHYSICS(FOR 100)")
+        ap = int(input())
+        print("ENTER MARKS IN A&DE(FOR 100)")
+        ade = int(input())
+        print("ENTER MARKS IN PYTHON(FOR 100)")
+        py = int(input())
+        print("ENTER MARKS IN APPLIED PHYSICS LAB(FOR 100)")
+        apl = int(input())
+        print("ENTER MARKS IN PYTHON LAB(FOR 100)")
+        pyl = int(input())
+        print("ENTER MARKS IN EWS(FOR 100)")
+        ews = int(input())
+        total = e + m + ap + ade + py + apl + pyl + ews
+        print(total)
+        print("out of 800")
+        per = (total / 800) * 100
+        print("percentage is", per)
+    elif (a == 2):
+        print("REUPLOAD SERVICE IS COMING SOON.....")
+else:
+    print("CHOOSE A VALID OPTION")
+
